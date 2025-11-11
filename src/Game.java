@@ -57,7 +57,7 @@ public class Game {
 				}while(!guess.isLoss() && !guess.isWin());
 			}
 			
-			
+			word.clearList();
 
 			input = "y";
 			

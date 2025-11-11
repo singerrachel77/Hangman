@@ -35,7 +35,7 @@ public class Word{
 		return wordList;
 	}
 	
-	public void setGoal(ArrayList<String> list){
+	public void setList(ArrayList<String> list){
 		wordList = list;
 		return;
 	}
@@ -66,5 +66,10 @@ public class Word{
 		word = word.toLowerCase();
 		goal = word.toCharArray();
 		return goal;
+	}
+	
+	public void clearList() {
+		wordList.clear();
+		return;
 	}
 }
